@@ -1,5 +1,5 @@
 # ecarx-cli
-A simple CLI for scaffolding [weex](http://weex.apache.org/cn/) projects, we provide [ecarx-template](https://github.com/bmfe/ecarx-template) to quickly build small and medium sized app.
+A simple CLI for scaffolding [weex](http://weex.apache.org/cn/) projects, we provide [ecarx-template](https://github.com/welcome112s/ecarx-template) to quickly build small and medium sized app.
 
 ## Installation
 Prerequisites: Node.js (>=4.x, 6.x preferred), npm version 3+ and Git.
@@ -40,11 +40,11 @@ build full zip and copy to specified path, post full zip info to your server, yo
 ```
 $ ecarx build -s url
 ```
-build full zip and copy to specified path, generate full zip and diff zip in  [ecarx-template](https://github.com/bmfe/ecarx-template)'s dist folder.
+build full zip and copy to specified path, generate full zip and diff zip in  [ecarx-template](https://github.com/welcome112s/ecarx-template)'s dist folder.
 ```
 $ ecarx build -d
 ```
-build full zip and copy to specified path, generate full zip and diff zip in  [ecarx-template](https://github.com/bmfe/ecarx-template)'s dist folder， post full zip info to your server at same time.
+build full zip and copy to specified path, generate full zip and diff zip in  [ecarx-template](https://github.com/welcome112s/ecarx-template)'s dist folder， post full zip info to your server at same time.
 ```
 $ ecarx build -s url -d
 ```
@@ -62,7 +62,7 @@ $ ecarx dev
 ```
 #### **init**:
 
-generate [ecarx-template](https://github.com/bmfe/ecarx-template) in current execution directory, you can quickly build your app through
+generate [ecarx-template](https://github.com/welcome112s/ecarx-template) in current execution directory, you can quickly build your app through
  it.
 ```
 $ ecarx init
@@ -105,7 +105,7 @@ pack ecarx ios && android inner js bundle.
 $ ecarx pack all
 ```
 #### **update**
-you can update [ecarx-template](https://github.com/bmfe/ecarx-template)'s every file/path when ecarx-template has updated, **`but your must use it be careful, when the file/path has be changed by yourself that you want to update`**. 
+you can update [ecarx-template](https://github.com/welcome112s/ecarx-template)'s every file/path when ecarx-template has updated, **`but your must use it be careful, when the file/path has be changed by yourself that you want to update`**.
 ```
 $ ecarx update
 ```
@@ -131,7 +131,7 @@ $ ecarx mock
 ## Develop & Test
 
 * cd ecarx-template or ecarx init project `parent directory`.
-* git clone https://github.com/bmfe/ecarx-cli
+* git clone https://github.com/welcome112s/ecarx-cli
 * cd ecarx-cli && git checkout dev
 * npm/cnpm i
 * cd ecarx-template or ecarx init project
