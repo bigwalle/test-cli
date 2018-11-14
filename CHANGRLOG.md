@@ -12,3 +12,6 @@
 * 修改 eros NODE_env 搭配修复eros debug问题
 * fix diff bug
 * build assets 时候多调用了打 iconfont md5 方法
+#1.0.6
+### func
+*修改了一些bug
